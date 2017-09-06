@@ -25,14 +25,32 @@ function buildStar(id) {
     var Star = {
         id: id,
         name: nameCreator(),
-        coordinates: {
-            x: parseFloat(((Math.random() * size) - size / 2).toFixed(2)),
-            y: parseFloat(((Math.random() * size) - size / 2).toFixed(2)),
-            z: parseFloat(((Math.random() * size) - size / 2).toFixed(2))
-        },
+        coordinates: createCoordinates(),
         system: "!createSystem"
     }
     StarMap.stars.push(Star);
+}
+
+function createCoordinates() {
+    do {
+        var coordinates = {
+            x: parseFloat(((Math.random() * size) - size / 2).toFixed(2)),
+            y: parseFloat(((Math.random() * size) - size / 2).toFixed(2)),
+            z: parseFloat(((Math.random() * size) - size / 2).toFixed(2))
+        }
+    } while (!validCoordinates(coordinates))
+    return coordinates;
+}
+
+function validCoordinates(coordinates) {
+    var i = 0;
+    while (i < StarMap.stars.length && mindist < Math.sqrt(Math.pow(Math.abs(coordinates.x - StarMap.stars[i].coordinates.x), 2)+Math.pow(Math.abs(coordinates.y - StarMap.stars[i].coordinates.y), 2) + Math.pow(Math.abs(coordinates.z - StarMap.stars[i].coordinates.z), 2))) { i++ }
+    if (i < StarMap.stars.length) {
+        console.log('anyád.');
+        return false;
+    } else {
+        return true;
+    }
 }
 
 function valid(name) {

@@ -1,1 +1,883 @@
-{"name":"Universe One","stars":[{"id":0,"name":"DEC-6","coordinates":{"x":41.23,"y":-91.87,"z":-35.48},"system":"!createSystem"},{"id":1,"name":"FECE-6","coordinates":{"x":-69.77,"y":-65.6,"z":96.89},"system":"!createSystem"},{"id":2,"name":"FAE-66","coordinates":{"x":-21.8,"y":-55.18,"z":-88.3},"system":"!createSystem"},{"id":3,"name":"ECF-41","coordinates":{"x":-39.08,"y":23.33,"z":-81.83},"system":"!createSystem"},{"id":4,"name":"AEEA-671","coordinates":{"x":-50,"y":-2.74,"z":79.63},"system":"!createSystem"},{"id":5,"name":"EAF-31","coordinates":{"x":76.93,"y":43.87,"z":81.84},"system":"!createSystem"},{"id":6,"name":"BE-64","coordinates":{"x":96.25,"y":-10.36,"z":-29.44},"system":"!createSystem"},{"id":7,"name":"DD-6","coordinates":{"x":53.14,"y":77.55,"z":-5.62},"system":"!createSystem"},{"id":8,"name":"EA-01","coordinates":{"x":-55.61,"y":-9.84,"z":-62.72},"system":"!createSystem"},{"id":9,"name":"CB-47","coordinates":{"x":-67.94,"y":27.17,"z":-86.08},"system":"!createSystem"},{"id":10,"name":"C-8","coordinates":{"x":-43.32,"y":-69.58,"z":77.8},"system":"!createSystem"},{"id":11,"name":"E-674","coordinates":{"x":-40.41,"y":98.55,"z":95.08},"system":"!createSystem"},{"id":12,"name":"DDE-65","coordinates":{"x":-84.9,"y":30.99,"z":-91},"system":"!createSystem"},{"id":13,"name":"FB-2","coordinates":{"x":-4.39,"y":-35.28,"z":-90.62},"system":"!createSystem"},{"id":14,"name":"EC-7","coordinates":{"x":87.14,"y":-60.91,"z":34.77},"system":"!createSystem"},{"id":15,"name":"C-859","coordinates":{"x":-70.42,"y":30.98,"z":44.83},"system":"!createSystem"},{"id":16,"name":"BC-0","coordinates":{"x":-53.04,"y":-68.78,"z":-62.18},"system":"!createSystem"},{"id":17,"name":"BB-4","coordinates":{"x":-71.14,"y":-62.56,"z":56.73},"system":"!createSystem"},{"id":18,"name":"DCEC-89","coordinates":{"x":99.11,"y":50.93,"z":-51.46},"system":"!createSystem"},{"id":19,"name":"DBF-158","coordinates":{"x":90.63,"y":66.19,"z":2.3},"system":"!createSystem"}]}
+{
+    "name": "Universe One",
+    "stars": [
+        {
+            "id": 0,
+            "name": "BBF-8",
+            "coordinates": {
+                "x": 2.72,
+                "y": 70.03,
+                "z": -15.95
+            },
+            "system": {
+                "id": "0-S",
+                "name": "BBF-8 System",
+                "childs": [
+                    {
+                        "id": "0-S-0",
+                        "name": "BBF-8 Star",
+                        "type": "star",
+                        "size": 2.25,
+                        "info": "!createInfo",
+                        "childs": []
+                    }
+                ]
+            }
+        },
+        {
+            "id": 1,
+            "name": "DD-35",
+            "coordinates": {
+                "x": -30.08,
+                "y": -27.05,
+                "z": 32.62
+            },
+            "system": {
+                "id": "1-S",
+                "name": "DD-35 System",
+                "childs": [
+                    {
+                        "id": "1-S-0",
+                        "name": "DD-35 Star",
+                        "type": "star",
+                        "size": 2.85,
+                        "info": "!createInfo",
+                        "childs": []
+                    }
+                ]
+            }
+        },
+        {
+            "id": 2,
+            "name": "FCC-56",
+            "coordinates": {
+                "x": -81.29,
+                "y": -17.78,
+                "z": -70.54
+            },
+            "system": {
+                "id": "2-S",
+                "name": "FCC-56 System",
+                "childs": [
+                    {
+                        "id": "2-S-0",
+                        "name": "FCC-56 Star",
+                        "type": "star",
+                        "size": 4.93,
+                        "info": "!createInfo",
+                        "childs": [
+                            {
+                                "id": "2-S-0-0",
+                                "name": "Teszt planet",
+                                "type": "planet",
+                                "size": 0.76,
+                                "distance": 8.27,
+                                "info": "!createInfo",
+                                "childs": []
+                            },
+                            {
+                                "id": "2-S-0-1",
+                                "name": "Teszt planet",
+                                "type": "planet",
+                                "size": 0.14,
+                                "distance": 7.56,
+                                "info": "!createInfo",
+                                "childs": [
+                                    {
+                                        "id": "2-S-0-1-0",
+                                        "name": "Teszt planet",
+                                        "type": "planet",
+                                        "size": 0.19,
+                                        "distance": 9.84,
+                                        "info": "!createInfo",
+                                        "childs": []
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "id": 3,
+            "name": "CE-9",
+            "coordinates": {
+                "x": 7.06,
+                "y": -18.71,
+                "z": -75.11
+            },
+            "system": {
+                "id": "3-S",
+                "name": "CE-9 System",
+                "childs": [
+                    {
+                        "id": "3-S-0",
+                        "name": "CE-9 Star",
+                        "type": "star",
+                        "size": 1.93,
+                        "info": "!createInfo",
+                        "childs": [
+                            {
+                                "id": "3-S-0-0",
+                                "name": "Teszt planet",
+                                "type": "planet",
+                                "size": 0.43,
+                                "distance": 1.37,
+                                "info": "!createInfo",
+                                "childs": [
+                                    {
+                                        "id": "3-S-0-0-0",
+                                        "name": "Teszt planet",
+                                        "type": "planet",
+                                        "size": 0.21,
+                                        "distance": 5.35,
+                                        "info": "!createInfo",
+                                        "childs": []
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "id": 4,
+            "name": "BCCB-048",
+            "coordinates": {
+                "x": 75.57,
+                "y": 7.69,
+                "z": 99.19
+            },
+            "system": {
+                "id": "4-S",
+                "name": "BCCB-048 System",
+                "childs": [
+                    {
+                        "id": "4-S-0",
+                        "name": "BCCB-048 Star",
+                        "type": "star",
+                        "size": 3.52,
+                        "info": "!createInfo",
+                        "childs": [
+                            {
+                                "id": "4-S-0-0",
+                                "name": "Teszt planet",
+                                "type": "planet",
+                                "size": 0.29,
+                                "distance": 0.94,
+                                "info": "!createInfo",
+                                "childs": []
+                            },
+                            {
+                                "id": "4-S-0-1",
+                                "name": "Teszt star",
+                                "type": "star",
+                                "size": 0.08,
+                                "distance": 4.83,
+                                "info": "!createInfo",
+                                "childs": []
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "id": 5,
+            "name": "C-71",
+            "coordinates": {
+                "x": 69.51,
+                "y": 97.86,
+                "z": 3.4
+            },
+            "system": {
+                "id": "5-S",
+                "name": "C-71 System",
+                "childs": [
+                    {
+                        "id": "5-S-0",
+                        "name": "C-71 Star",
+                        "type": "star",
+                        "size": 4.59,
+                        "info": "!createInfo",
+                        "childs": [
+                            {
+                                "id": "5-S-0-0",
+                                "name": "Teszt planet",
+                                "type": "planet",
+                                "size": 0.54,
+                                "distance": 3.41,
+                                "info": "!createInfo",
+                                "childs": [
+                                    {
+                                        "id": "5-S-0-0-0",
+                                        "name": "Teszt planet",
+                                        "type": "planet",
+                                        "size": 0.62,
+                                        "distance": 1.6,
+                                        "info": "!createInfo",
+                                        "childs": []
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "5-S-0-1",
+                                "name": "Teszt station",
+                                "type": "station",
+                                "distance": 1.58,
+                                "info": "!createInfo",
+                                "services": "!createServices"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "id": 6,
+            "name": "D-71",
+            "coordinates": {
+                "x": 11.1,
+                "y": -56.25,
+                "z": 81.38
+            },
+            "system": {
+                "id": "6-S",
+                "name": "D-71 System",
+                "childs": [
+                    {
+                        "id": "6-S-0",
+                        "name": "D-71 Star",
+                        "type": "star",
+                        "size": 3.39,
+                        "info": "!createInfo",
+                        "childs": [
+                            {
+                                "id": "6-S-0-0",
+                                "name": "Teszt planet",
+                                "type": "planet",
+                                "size": 0.6,
+                                "distance": 8.27,
+                                "info": "!createInfo",
+                                "childs": []
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "id": 7,
+            "name": "DBE-2",
+            "coordinates": {
+                "x": 61.44,
+                "y": -90.08,
+                "z": 16.43
+            },
+            "system": {
+                "id": "7-S",
+                "name": "DBE-2 System",
+                "childs": [
+                    {
+                        "id": "7-S-0",
+                        "name": "DBE-2 Star",
+                        "type": "star",
+                        "size": 4.49,
+                        "info": "!createInfo",
+                        "childs": [
+                            {
+                                "id": "7-S-0-0",
+                                "name": "Teszt planet",
+                                "type": "planet",
+                                "size": 0.36,
+                                "distance": 5.21,
+                                "info": "!createInfo",
+                                "childs": []
+                            },
+                            {
+                                "id": "7-S-0-1",
+                                "name": "Teszt station",
+                                "type": "station",
+                                "distance": 6.83,
+                                "info": "!createInfo",
+                                "services": "!createServices"
+                            },
+                            {
+                                "id": "7-S-0-2",
+                                "name": "Teszt planet",
+                                "type": "planet",
+                                "size": 0.24,
+                                "distance": 2.23,
+                                "info": "!createInfo",
+                                "childs": []
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "id": 8,
+            "name": "EFCDB-0",
+            "coordinates": {
+                "x": -26.69,
+                "y": 28.94,
+                "z": -30.11
+            },
+            "system": {
+                "id": "8-S",
+                "name": "EFCDB-0 System",
+                "childs": [
+                    {
+                        "id": "8-S-0",
+                        "name": "EFCDB-0 Star",
+                        "type": "star",
+                        "size": 2.26,
+                        "info": "!createInfo",
+                        "childs": [
+                            {
+                                "id": "8-S-0-0",
+                                "name": "Teszt planet",
+                                "type": "planet",
+                                "size": 0.91,
+                                "distance": 7.59,
+                                "info": "!createInfo",
+                                "childs": []
+                            },
+                            {
+                                "id": "8-S-0-1",
+                                "name": "Teszt star",
+                                "type": "star",
+                                "size": 4.43,
+                                "distance": 3.55,
+                                "info": "!createInfo",
+                                "childs": []
+                            },
+                            {
+                                "id": "8-S-0-2",
+                                "name": "Teszt planet",
+                                "type": "planet",
+                                "size": 0.51,
+                                "distance": 1.88,
+                                "info": "!createInfo",
+                                "childs": []
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "id": 9,
+            "name": "C-32",
+            "coordinates": {
+                "x": -57.56,
+                "y": 33.81,
+                "z": 45.2
+            },
+            "system": {
+                "id": "9-S",
+                "name": "C-32 System",
+                "childs": [
+                    {
+                        "id": "9-S-0",
+                        "name": "C-32 Star",
+                        "type": "star",
+                        "size": 2.26,
+                        "info": "!createInfo",
+                        "childs": [
+                            {
+                                "id": "9-S-0-0",
+                                "name": "Teszt planet",
+                                "type": "planet",
+                                "size": 0.59,
+                                "distance": 6.07,
+                                "info": "!createInfo",
+                                "childs": []
+                            },
+                            {
+                                "id": "9-S-0-1",
+                                "name": "Teszt planet",
+                                "type": "planet",
+                                "size": 0.06,
+                                "distance": 1.97,
+                                "info": "!createInfo",
+                                "childs": []
+                            },
+                            {
+                                "id": "9-S-0-2",
+                                "name": "Teszt station",
+                                "type": "station",
+                                "distance": 0.23,
+                                "info": "!createInfo",
+                                "services": "!createServices"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "id": 10,
+            "name": "EF-66",
+            "coordinates": {
+                "x": 43.52,
+                "y": -63.27,
+                "z": 40
+            },
+            "system": {
+                "id": "10-S",
+                "name": "EF-66 System",
+                "childs": [
+                    {
+                        "id": "10-S-0",
+                        "name": "EF-66 Star",
+                        "type": "star",
+                        "size": 2.36,
+                        "info": "!createInfo",
+                        "childs": [
+                            {
+                                "id": "10-S-0-0",
+                                "name": "Teszt planet",
+                                "type": "planet",
+                                "size": 0.12,
+                                "distance": 8.04,
+                                "info": "!createInfo",
+                                "childs": [
+                                    null
+                                ]
+                            },
+                            {
+                                "id": "10-S-0-1",
+                                "name": "Teszt planet",
+                                "type": "planet",
+                                "size": 0.7,
+                                "distance": 1.7,
+                                "info": "!createInfo",
+                                "childs": []
+                            },
+                            {
+                                "id": "10-S-0-2",
+                                "name": "Teszt planet",
+                                "type": "planet",
+                                "size": 0.73,
+                                "distance": 1.35,
+                                "info": "!createInfo",
+                                "childs": []
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "id": 11,
+            "name": "DDAD-81",
+            "coordinates": {
+                "x": -54.54,
+                "y": 85.12,
+                "z": -22.3
+            },
+            "system": {
+                "id": "11-S",
+                "name": "DDAD-81 System",
+                "childs": [
+                    {
+                        "id": "11-S-0",
+                        "name": "DDAD-81 Star",
+                        "type": "star",
+                        "size": 4,
+                        "info": "!createInfo",
+                        "childs": [
+                            {
+                                "id": "11-S-0-0",
+                                "name": "Teszt planet",
+                                "type": "planet",
+                                "size": 0.19,
+                                "distance": 0.33,
+                                "info": "!createInfo",
+                                "childs": []
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "id": 12,
+            "name": "CD-332",
+            "coordinates": {
+                "x": -61.71,
+                "y": -37.63,
+                "z": 30.6
+            },
+            "system": {
+                "id": "12-S",
+                "name": "CD-332 System",
+                "childs": [
+                    {
+                        "id": "12-S-0",
+                        "name": "CD-332 Star",
+                        "type": "star",
+                        "size": 2.58,
+                        "info": "!createInfo",
+                        "childs": [
+                            {
+                                "id": "12-S-0-0",
+                                "name": "Teszt planet",
+                                "type": "planet",
+                                "size": 0.15,
+                                "distance": 1.24,
+                                "info": "!createInfo",
+                                "childs": [
+                                    {
+                                        "id": "12-S-0-0-0",
+                                        "name": "Teszt planet",
+                                        "type": "planet",
+                                        "size": 0.15,
+                                        "distance": 3.12,
+                                        "info": "!createInfo",
+                                        "childs": []
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "id": 13,
+            "name": "B-7",
+            "coordinates": {
+                "x": 94.27,
+                "y": -3.03,
+                "z": -98.88
+            },
+            "system": {
+                "id": "13-S",
+                "name": "B-7 System",
+                "childs": [
+                    {
+                        "id": "13-S-0",
+                        "name": "B-7 Star",
+                        "type": "star",
+                        "size": 2.84,
+                        "info": "!createInfo",
+                        "childs": []
+                    }
+                ]
+            }
+        },
+        {
+            "id": 14,
+            "name": "ECC-554",
+            "coordinates": {
+                "x": -82.49,
+                "y": 70.82,
+                "z": 72.21
+            },
+            "system": {
+                "id": "14-S",
+                "name": "ECC-554 System",
+                "childs": [
+                    {
+                        "id": "14-S-0",
+                        "name": "ECC-554 Star",
+                        "type": "star",
+                        "size": 1.75,
+                        "info": "!createInfo",
+                        "childs": []
+                    }
+                ]
+            }
+        },
+        {
+            "id": 15,
+            "name": "BBA-2",
+            "coordinates": {
+                "x": 99.68,
+                "y": -5.3,
+                "z": -34.2
+            },
+            "system": {
+                "id": "15-S",
+                "name": "BBA-2 System",
+                "childs": [
+                    {
+                        "id": "15-S-0",
+                        "name": "BBA-2 Star",
+                        "type": "star",
+                        "size": 2.97,
+                        "info": "!createInfo",
+                        "childs": [
+                            {
+                                "id": "15-S-0-0",
+                                "name": "Teszt planet",
+                                "type": "planet",
+                                "size": 0.75,
+                                "distance": 4.67,
+                                "info": "!createInfo",
+                                "childs": []
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "id": 16,
+            "name": "EDF-5",
+            "coordinates": {
+                "x": 43.38,
+                "y": -17.63,
+                "z": 16.52
+            },
+            "system": {
+                "id": "16-S",
+                "name": "EDF-5 System",
+                "childs": [
+                    {
+                        "id": "16-S-0",
+                        "name": "EDF-5 Star",
+                        "type": "star",
+                        "size": 0.55,
+                        "info": "!createInfo",
+                        "childs": [
+                            {
+                                "id": "16-S-0-0",
+                                "name": "Teszt planet",
+                                "type": "planet",
+                                "size": 0.21,
+                                "distance": 6.1,
+                                "info": "!createInfo",
+                                "childs": [
+                                    {
+                                        "id": "16-S-0-0-0",
+                                        "name": "Teszt station",
+                                        "type": "station",
+                                        "distance": 8.16,
+                                        "info": "!createInfo",
+                                        "services": "!createServices"
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "16-S-0-1",
+                                "name": "Teszt planet",
+                                "type": "planet",
+                                "size": 0.32,
+                                "distance": 0.48,
+                                "info": "!createInfo",
+                                "childs": []
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "id": 17,
+            "name": "BC-6",
+            "coordinates": {
+                "x": -90.09,
+                "y": -70.68,
+                "z": -51.06
+            },
+            "system": {
+                "id": "17-S",
+                "name": "BC-6 System",
+                "childs": [
+                    {
+                        "id": "17-S-0",
+                        "name": "BC-6 Star",
+                        "type": "star",
+                        "size": 0.38,
+                        "info": "!createInfo",
+                        "childs": [
+                            {
+                                "id": "17-S-0-0",
+                                "name": "Teszt planet",
+                                "type": "planet",
+                                "size": 0.75,
+                                "distance": 8.32,
+                                "info": "!createInfo",
+                                "childs": [
+                                    {
+                                        "id": "17-S-0-0-0",
+                                        "name": "Teszt planet",
+                                        "type": "planet",
+                                        "size": 0.86,
+                                        "distance": 7.97,
+                                        "info": "!createInfo",
+                                        "childs": [
+                                            {
+                                                "id": "17-S-0-0-0-0",
+                                                "name": "Teszt planet",
+                                                "type": "planet",
+                                                "size": 0.48,
+                                                "distance": 7.26,
+                                                "info": "!createInfo",
+                                                "childs": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "17-S-0-1",
+                                "name": "Teszt planet",
+                                "type": "planet",
+                                "size": 0.41,
+                                "distance": 9.42,
+                                "info": "!createInfo",
+                                "childs": [
+                                    {
+                                        "id": "17-S-0-1-0",
+                                        "name": "Teszt planet",
+                                        "type": "planet",
+                                        "size": 0.65,
+                                        "distance": 1.08,
+                                        "info": "!createInfo",
+                                        "childs": []
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "17-S-0-2",
+                                "name": "Teszt planet",
+                                "type": "planet",
+                                "size": 0.81,
+                                "distance": 6.17,
+                                "info": "!createInfo",
+                                "childs": [
+                                    {
+                                        "id": "17-S-0-2-0",
+                                        "name": "Teszt station",
+                                        "type": "station",
+                                        "distance": 3.82,
+                                        "info": "!createInfo",
+                                        "services": "!createServices"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "id": 18,
+            "name": "ABEAC-325",
+            "coordinates": {
+                "x": 98.18,
+                "y": -5.76,
+                "z": 43.03
+            },
+            "system": {
+                "id": "18-S",
+                "name": "ABEAC-325 System",
+                "childs": [
+                    {
+                        "id": "18-S-0",
+                        "name": "ABEAC-325 Star",
+                        "type": "star",
+                        "size": 4.11,
+                        "info": "!createInfo",
+                        "childs": [
+                            {
+                                "id": "18-S-0-0",
+                                "name": "Teszt station",
+                                "type": "station",
+                                "distance": 9.74,
+                                "info": "!createInfo",
+                                "services": "!createServices"
+                            },
+                            {
+                                "id": "18-S-0-1",
+                                "name": "Teszt star",
+                                "type": "star",
+                                "size": 0.22,
+                                "distance": 6.17,
+                                "info": "!createInfo",
+                                "childs": [
+                                    {
+                                        "id": "18-S-0-1-0",
+                                        "name": "Teszt star",
+                                        "type": "star",
+                                        "size": 4.96,
+                                        "distance": 0.97,
+                                        "info": "!createInfo",
+                                        "childs": [
+                                            {
+                                                "id": "18-S-0-1-0-0",
+                                                "name": "Teszt station",
+                                                "type": "station",
+                                                "distance": 8.15,
+                                                "info": "!createInfo",
+                                                "services": "!createServices"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "18-S-0-2",
+                                "name": "Teszt station",
+                                "type": "station",
+                                "distance": 2.89,
+                                "info": "!createInfo",
+                                "services": "!createServices"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "id": 19,
+            "name": "BEEC-45",
+            "coordinates": {
+                "x": 15.81,
+                "y": 33.53,
+                "z": 63.81
+            },
+            "system": {
+                "id": "19-S",
+                "name": "BEEC-45 System",
+                "childs": [
+                    {
+                        "id": "19-S-0",
+                        "name": "BEEC-45 Star",
+                        "type": "star",
+                        "size": 0.03,
+                        "info": "!createInfo",
+                        "childs": [
+                            {
+                                "id": "19-S-0-0",
+                                "name": "Teszt planet",
+                                "type": "planet",
+                                "size": 0.21,
+                                "distance": 7.31,
+                                "info": "!createInfo",
+                                "childs": [
+                                    {
+                                        "id": "19-S-0-0-0",
+                                        "name": "Teszt planet",
+                                        "type": "planet",
+                                        "size": 0.46,
+                                        "distance": 3.56,
+                                        "info": "!createInfo",
+                                        "childs": []
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    ]
+}

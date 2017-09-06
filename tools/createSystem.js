@@ -46,7 +46,7 @@ for (j = 0; j < StarMap.stars.length; j++) {
     }
 }
 
-fs.writeFileSync('./teszt.json', JSON.stringify(StarMap));
+fs.writeFileSync(path, JSON.stringify(StarMap));
 
 function generateChilds(parent, level) {
     var childs = [];
