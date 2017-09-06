@@ -10,8 +10,9 @@
                 "z": 0
             },
             "system": {
-                "id": "<parentID>-0",
+                "id": "<parentID>-S",
                 "name": "System 1",
+                //"status": active
                 "childs": [
                     {
                         "id": "<parentID>-0",
@@ -24,6 +25,10 @@
                                 "name": "Planet 1",
                                 "type": "planet",
                                 "distance": 10,
+                                //"angle": 267.15,
+                                //"speed": 5,
+                                //"lastCalculated": 1235,
+                                //"state": live,
                                 "childs": []
                             },
                             {

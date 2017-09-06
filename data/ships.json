@@ -25,11 +25,13 @@
     "internal": {
         "slot1": {
             "size": 4,
-            "name": "Cargo Rack",
-            "type": "cargorack",
-            "capacity": 16,
-            "childs": [],
-            "damage": 0
+            "module": {
+                "name": "Cargo Rack",
+                "type": "cargorack",
+                "capacity": 16,
+                "childs": [],
+                "damage": 0
+            }
         },
         "slot2": {
             "size": 4,

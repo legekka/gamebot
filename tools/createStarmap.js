@@ -5,12 +5,10 @@ var fs = require('fs');
 // parameters
 
 var uname = "Universe One";
-var starcount = 1000; // number of stars (=star systems)
-var size = 4000; // size of the universe
-var mindist = 1; // TODO: minimum distance between stars 
+var starcount = 20; // number of stars (=star systems)
+var size = 200; // size of the universe
+var mindist = 1; // TODO: minimum distance between stars
 var path = './data/starmap.json';
-
-
 
 
 
@@ -28,9 +26,9 @@ function buildStar(id) {
         id: id,
         name: nameCreator(),
         coordinates: {
-            x: parseFloat(((Math.random() * size )  - size / 2).toFixed(2)),
-            y: parseFloat(((Math.random() * size )  - size / 2).toFixed(2)),
-            z: parseFloat(((Math.random() * size )  - size / 2).toFixed(2))
+            x: parseFloat(((Math.random() * size) - size / 2).toFixed(2)),
+            y: parseFloat(((Math.random() * size) - size / 2).toFixed(2)),
+            z: parseFloat(((Math.random() * size) - size / 2).toFixed(2))
         },
         system: "!createSystem"
     }
@@ -43,7 +41,6 @@ function valid(name) {
         i++;
     }
     if (i < StarMap.stars.length) {
-        console.log('oh.');
         return false;
     } else {
         return true;

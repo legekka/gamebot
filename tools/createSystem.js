@@ -18,7 +18,7 @@ var objectsize = {
 }
 
 // idk
-var max = 4;
+const max = 4;
 
 var path = './data/starmap.json';
 
@@ -32,7 +32,7 @@ for (j = 0; j < StarMap.stars.length; j++) {
             childs: [
                 // creating central star
                 {
-                    id: StarMap.stars[j].id + '-0',
+                    id: StarMap.stars[j].id + '-S-0',
                     name: StarMap.stars[j].name + " Star",
                     type: "star",
                     size: parseFloat(((Math.random() * objectsize.star)).toFixed(2)),
