@@ -5,8 +5,7 @@
     "repository": "",
     "author": "",
     "dependencies": {
-        "discord.js": "^11.2.1",
-        "terminal-kit": "^1.13.10"
+        "discord.js": "^11.2.1"
     },
     "main": "index.js",
     "engines": {
