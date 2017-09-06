@@ -1,0 +1,101 @@
+{
+    "name": "Universe 1",
+    "stars": [
+        {
+            "id": "0",
+            "name": "StarA",
+            "coordinates": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "system": {
+                "id": "<parentID>-0",
+                "name": "System 1",
+                "childs": [
+                    {
+                        "id": "<parentID>-0",
+                        "name": "Central Star",
+                        "type": "star",
+                        "distance": 0,
+                        "childs": [
+                            {
+                                "id": "<parentID>-0",
+                                "name": "Planet 1",
+                                "type": "planet",
+                                "distance": 10,
+                                "childs": []
+                            },
+                            {
+                                "name": "Planet 2",
+                                "type": "planet",
+                                "distance": 35,
+                                "childs": [
+                                    {
+                                        "name": "Starport 1",
+                                        "type": "station",
+                                        "distance": 2,
+                                        "services": [
+                                            {
+                                                "name": "Refuel",
+                                                "type": "fuel",
+                                                "price": 10
+                                            },
+                                            {
+                                                "name": "Market",
+                                                "type": "market",
+                                                "market": {
+                                                    "buy": [
+                                                        {
+                                                            "name": "Food",
+                                                            "type": "item",
+                                                            "id": 1,
+                                                            "price": 5,
+                                                            "supply": 10000
+                                                        },
+                                                        {
+                                                            "name": "Water",
+                                                            "type": "item",
+                                                            "id": 2,
+                                                            "price": 2,
+                                                            "supply": 10000
+                                                        }
+                                                    ],
+                                                    "sell": [
+                                                        {
+                                                            "name": "Cloth",
+                                                            "type": "item",
+                                                            "id": 10,
+                                                            "price": 20,
+                                                            "demand": 100
+                                                        }
+                                                    ]
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "name": "Moon",
+                                        "type": "moon",
+                                        "distance": 7,
+                                        "childs": []
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "id": 1,
+            "name": "StarB",
+            "coordinates": {
+                "x": 2000,
+                "y": 4000,
+                "z": 0
+            },
+            "system": "<another system>"
+        }
+    ]
+}

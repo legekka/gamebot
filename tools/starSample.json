@@ -1,0 +1,10 @@
+{
+    "id": 0,
+    "name": "StarA",
+    "coordinates": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+    },
+    "system" : "<systemSample.json>"
+}

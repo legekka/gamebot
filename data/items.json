@@ -1,0 +1,22 @@
+[
+    {
+        "id": 0,
+        "name": "Fuel",
+        "value": 10
+    },
+    {
+        "id": 1,
+        "name": "Food",
+        "value": 5
+    },
+    {
+        "id": 2,
+        "name": "Water",
+        "value": 2
+    },
+    {
+        "id": 10,
+        "name": "Cloth",
+        "value": 20
+    }
+]

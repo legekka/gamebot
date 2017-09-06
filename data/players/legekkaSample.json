@@ -1,0 +1,149 @@
+{
+    "name": "legekka",
+    "did": "143399021740818432",
+    "credits": 1000,
+    "location": {
+        "absolute": {
+            "x": 0.2,
+            "y": 0.2,
+            "z": 0.2
+        },
+        // VV function generated parts VV
+        "nearStar": {
+            "name": "StarA",
+            "id": "0"
+        },
+        "system": {
+            "nearObject": {
+                "name": "Planet 1",
+                "id": "0-0-1"
+            }
+        }
+    },
+    
+    "status": {
+        "travelling": false,
+        "cruising": false
+    },
+
+    "events": {
+        "warping": {
+            "A": {
+                "name": "StarA",
+                "id": "0"
+            },
+            "B": {
+                "name": "StarB",
+                "id": "1"
+            },
+            "distance": "<calculated>",
+            "time": "<calculated>",
+            "progress": 0
+        }
+    },
+
+    "ship": {
+        "name": "Solaris",
+        "description": "legekka's mothership.",
+        "energyconsumption": "<live function>",
+        "price": 47000000,
+        "core": {
+            "thrusters": {
+                "name": "Thrusters",
+                "type": "thruster",
+                "level": 1,
+                "damage": 0
+            },
+            "hyperdrive": {
+                "name": "Hyperdrive",
+                "type": "hyperdrive",
+                "level": 1,
+                "damage": 0
+            },
+            "reactor": {
+                "name": "Reactor",
+                "type": "reactor",
+                "level": 1,
+                "damage": 0
+            }
+        },
+        "internal": {
+            "slot1": {
+                "size": 4,
+                "name": "Cargo Rack",
+                "type": "cargorack",
+                "capacity": 16,
+                "childs": [],
+                "damage": 0
+            },
+            "slot2": {
+                "size": 4,
+                "name": "Shield Generator",
+                "type": "shieldgenerator",
+                "level": 1,
+                "damage": 0
+            },
+            "slot3": {
+                "size": 3,
+                "name": "empty",
+                "type": "empty"
+            },
+            "slot4": {
+                "size": 3,
+                "name": "empty",
+                "type": "empty"
+            },
+            "slot5": {
+                "size": 2,
+                "name": "empty",
+                "type": "empty"
+            },
+            "slot6": {
+                "size": 1,
+                "name": "empty",
+                "type": "empty"
+            }
+        },
+        "weapons": {
+            "mount1": {
+                "size": 3,
+                "name": "empty",
+                "type": "empty"
+            },
+            "mount2": {
+                "size": 3,
+                "name": "empty",
+                "type": "empty"
+            },
+            "mount3": {
+                "size": 3,
+                "name": "empty",
+                "type": "empty"
+            },
+            "mount4": {
+                "size": 2,
+                "name": "empty",
+                "type": "empty"
+            },
+            "mount5": {
+                "size": 2,
+                "name": "empty",
+                "type": "empty"
+            }
+        },
+        "utility": {
+            "mount1": {
+                "name": "empty",
+                "type": "empty"
+            },
+            "mount2": {
+                "name": "empty",
+                "type": "empty"
+            },
+            "mount3": {
+                "name": "empty",
+                "type": "empty"
+            }
+        }
+    }
+}

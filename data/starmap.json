@@ -1,0 +1,1005 @@
+{
+    "name": "Universe One",
+    "stars": [
+        {
+            "id": 0,
+            "name": "DBEBE-28",
+            "coordinates": {
+                "x": -1648.01,
+                "y": -441.12,
+                "z": 1975.09
+            },
+            "system": "!createSystem"
+        },
+        {
+            "id": 1,
+            "name": "BEF-895",
+            "coordinates": {
+                "x": -23.67,
+                "y": 78.7,
+                "z": 1717.55
+            },
+            "system": "!createSystem"
+        },
+        {
+            "id": 2,
+            "name": "DDB-93",
+            "coordinates": {
+                "x": 580.55,
+                "y": 826.94,
+                "z": -181.92
+            },
+            "system": "!createSystem"
+        },
+        {
+            "id": 3,
+            "name": "D-93",
+            "coordinates": {
+                "x": 1412.17,
+                "y": -818.75,
+                "z": -291.57
+            },
+            "system": "!createSystem"
+        },
+        {
+            "id": 4,
+            "name": "CD-238",
+            "coordinates": {
+                "x": 1767.85,
+                "y": 803.24,
+                "z": 1615.13
+            },
+            "system": "!createSystem"
+        },
+        {
+            "id": 5,
+            "name": "BD-35",
+            "coordinates": {
+                "x": 36.73,
+                "y": 1482.07,
+                "z": -181.76
+            },
+            "system": "!createSystem"
+        },
+        {
+            "id": 6,
+            "name": "EEF-2",
+            "coordinates": {
+                "x": 170.46,
+                "y": -1615.91,
+                "z": 612.22
+            },
+            "system": "!createSystem"
+        },
+        {
+            "id": 7,
+            "name": "CCA-2",
+            "coordinates": {
+                "x": 1291,
+                "y": -1072.58,
+                "z": -413.04
+            },
+            "system": "!createSystem"
+        },
+        {
+            "id": 8,
+            "name": "FE-31",
+            "coordinates": {
+                "x": 1881.65,
+                "y": 1716.72,
+                "z": -973.29
+            },
+            "system": "!createSystem"
+        },
+        {
+            "id": 9,
+            "name": "BDDCE-3",
+            "coordinates": {
+                "x": -572.32,
+                "y": 94.85,
+                "z": 207.75
+            },
+            "system": "!createSystem"
+        },
+        {
+            "id": 10,
+            "name": "D-71",
+            "coordinates": {
+                "x": 32.61,
+                "y": -1025.67,
+                "z": 246.39
+            },
+            "system": "!createSystem"
+        },
+        {
+            "id": 11,
+            "name": "DC-3",
+            "coordinates": {
+                "x": 528.28,
+                "y": 661.16,
+                "z": -1100.89
+            },
+            "system": "!createSystem"
+        },
+        {
+            "id": 12,
+            "name": "CDB-55",
+            "coordinates": {
+                "x": 187.06,
+                "y": -59.53,
+                "z": 1606.46
+            },
+            "system": "!createSystem"
+        },
+        {
+            "id": 13,
+            "name": "CBF-0",
+            "coordinates": {
+                "x": -90.65,
+                "y": 1078.87,
+                "z": 1023.28
+            },
+            "system": "!createSystem"
+        },
+        {
+            "id": 14,
+            "name": "D-63",
+            "coordinates": {
+                "x": -589.24,
+                "y": -5.87,
+                "z": 302.26
+            },
+            "system": "!createSystem"
+        },
+        {
+            "id": 15,
+            "name": "DCC-4",
+            "coordinates": {
+                "x": -384.06,
+                "y": 712.66,
+                "z": 93.33
+            },
+            "system": "!createSystem"
+        },
+        {
+            "id": 16,
+            "name": "FECFD-42",
+            "coordinates": {
+                "x": 23.12,
+                "y": 1472.25,
+                "z": 1479.5
+            },
+            "system": "!createSystem"
+        },
+        {
+            "id": 17,
+            "name": "AA-662",
+            "coordinates": {
+                "x": -1000.83,
+                "y": 133.77,
+                "z": 125.16
+            },
+            "system": "!createSystem"
+        },
+        {
+            "id": 18,
+            "name": "E-14",
+            "coordinates": {
+                "x": 1833.51,
+                "y": 1415.69,
+                "z": 563.91
+            },
+            "system": "!createSystem"
+        },
+        {
+            "id": 19,
+            "name": "CDE-35",
+            "coordinates": {
+                "x": -1169.27,
+                "y": 936.5,
+                "z": 1564.42
+            },
+            "system": "!createSystem"
+        },
+        {
+            "id": 20,
+            "name": "DAEB-74",
+            "coordinates": {
+                "x": 1515.39,
+                "y": -762.89,
+                "z": -1621.84
+            },
+            "system": "!createSystem"
+        },
+        {
+            "id": 21,
+            "name": "F-3",
+            "coordinates": {
+                "x": -88.48,
+                "y": 1612.72,
+                "z": -1065.88
+            },
+            "system": "!createSystem"
+        },
+        {
+            "id": 22,
+            "name": "EB-69",
+            "coordinates": {
+                "x": 312.13,
+                "y": -98.05,
+                "z": -791.03
+            },
+            "system": "!createSystem"
+        },
+        {
+            "id": 23,
+            "name": "EB-66",
+            "coordinates": {
+                "x": 884.19,
+                "y": -887.76,
+                "z": -1253.24
+            },
+            "system": "!createSystem"
+        },
+        {
+            "id": 24,
+            "name": "D-5",
+            "coordinates": {
+                "x": 1763.67,
+                "y": 1547.84,
+                "z": 256.93
+            },
+            "system": "!createSystem"
+        },
+        {
+            "id": 25,
+            "name": "DB-385",
+            "coordinates": {
+                "x": -977.64,
+                "y": -1517.98,
+                "z": -554.84
+            },
+            "system": "!createSystem"
+        },
+        {
+            "id": 26,
+            "name": "CBD-2",
+            "coordinates": {
+                "x": 1606.7,
+                "y": 719.47,
+                "z": 210.49
+            },
+            "system": "!createSystem"
+        },
+        {
+            "id": 27,
+            "name": "BC-9",
+            "coordinates": {
+                "x": 1162.78,
+                "y": -1958.12,
+                "z": 1858.19
+            },
+            "system": "!createSystem"
+        },
+        {
+            "id": 28,
+            "name": "DFEBC-48",
+            "coordinates": {
+                "x": 1590.99,
+                "y": 763.91,
+                "z": -1861.16
+            },
+            "system": "!createSystem"
+        },
+        {
+            "id": 29,
+            "name": "DD-8",
+            "coordinates": {
+                "x": 1212.87,
+                "y": 1830.45,
+                "z": 1654.47
+            },
+            "system": "!createSystem"
+        },
+        {
+            "id": 30,
+            "name": "CFD-237",
+            "coordinates": {
+                "x": -1082.98,
+                "y": -1196.26,
+                "z": -1963.89
+            },
+            "system": "!createSystem"
+        },
+        {
+            "id": 31,
+            "name": "DCD-43",
+            "coordinates": {
+                "x": 1642.65,
+                "y": -1535.39,
+                "z": -1580.27
+            },
+            "system": "!createSystem"
+        },
+        {
+            "id": 32,
+            "name": "BEB-78",
+            "coordinates": {
+                "x": 10.4,
+                "y": 1138.71,
+                "z": 1463.95
+            },
+            "system": "!createSystem"
+        },
+        {
+            "id": 33,
+            "name": "E-45",
+            "coordinates": {
+                "x": -1637.66,
+                "y": 453.95,
+                "z": 1989.11
+            },
+            "system": "!createSystem"
+        },
+        {
+            "id": 34,
+            "name": "E-268",
+            "coordinates": {
+                "x": -547.67,
+                "y": 107.02,
+                "z": -836.03
+            },
+            "system": "!createSystem"
+        },
+        {
+            "id": 35,
+            "name": "DCC-5",
+            "coordinates": {
+                "x": -1985.99,
+                "y": -1985.24,
+                "z": 94.09
+            },
+            "system": "!createSystem"
+        },
+        {
+            "id": 36,
+            "name": "AA-244",
+            "coordinates": {
+                "x": -1225.54,
+                "y": -311.19,
+                "z": 828.68
+            },
+            "system": "!createSystem"
+        },
+        {
+            "id": 37,
+            "name": "CCCC-445",
+            "coordinates": {
+                "x": 1683.79,
+                "y": -1652.07,
+                "z": 638.29
+            },
+            "system": "!createSystem"
+        },
+        {
+            "id": 38,
+            "name": "BBC-95",
+            "coordinates": {
+                "x": 1408.19,
+                "y": -1655.88,
+                "z": 1344.83
+            },
+            "system": "!createSystem"
+        },
+        {
+            "id": 39,
+            "name": "CD-12",
+            "coordinates": {
+                "x": 745.04,
+                "y": -912.14,
+                "z": 661.47
+            },
+            "system": "!createSystem"
+        },
+        {
+            "id": 40,
+            "name": "AE-53",
+            "coordinates": {
+                "x": -1774.7,
+                "y": -833.85,
+                "z": -413.29
+            },
+            "system": "!createSystem"
+        },
+        {
+            "id": 41,
+            "name": "EBD-0",
+            "coordinates": {
+                "x": 613.82,
+                "y": 402.76,
+                "z": 73.52
+            },
+            "system": "!createSystem"
+        },
+        {
+            "id": 42,
+            "name": "DB-84",
+            "coordinates": {
+                "x": 36.12,
+                "y": 1376.77,
+                "z": -72.49
+            },
+            "system": "!createSystem"
+        },
+        {
+            "id": 43,
+            "name": "AEE-955",
+            "coordinates": {
+                "x": 387.01,
+                "y": -129.94,
+                "z": -629.93
+            },
+            "system": "!createSystem"
+        },
+        {
+            "id": 44,
+            "name": "DCE-11",
+            "coordinates": {
+                "x": -1228.48,
+                "y": -505.49,
+                "z": 159.71
+            },
+            "system": "!createSystem"
+        },
+        {
+            "id": 45,
+            "name": "BD-1",
+            "coordinates": {
+                "x": 1393.81,
+                "y": 1275.98,
+                "z": -1526.32
+            },
+            "system": "!createSystem"
+        },
+        {
+            "id": 46,
+            "name": "EE-73",
+            "coordinates": {
+                "x": -383.6,
+                "y": -151.48,
+                "z": -1050.28
+            },
+            "system": "!createSystem"
+        },
+        {
+            "id": 47,
+            "name": "CDC-430",
+            "coordinates": {
+                "x": -1309,
+                "y": 1406.73,
+                "z": -291.88
+            },
+            "system": "!createSystem"
+        },
+        {
+            "id": 48,
+            "name": "A-773",
+            "coordinates": {
+                "x": 71.17,
+                "y": 1516.65,
+                "z": -1986.89
+            },
+            "system": "!createSystem"
+        },
+        {
+            "id": 49,
+            "name": "BD-89",
+            "coordinates": {
+                "x": -1515.54,
+                "y": -1297.98,
+                "z": -993.55
+            },
+            "system": "!createSystem"
+        },
+        {
+            "id": 50,
+            "name": "CB-61",
+            "coordinates": {
+                "x": 80.51,
+                "y": 1954.53,
+                "z": 1252.13
+            },
+            "system": "!createSystem"
+        },
+        {
+            "id": 51,
+            "name": "DEBC-34",
+            "coordinates": {
+                "x": -604.12,
+                "y": -918.64,
+                "z": 822.22
+            },
+            "system": "!createSystem"
+        },
+        {
+            "id": 52,
+            "name": "BC-7",
+            "coordinates": {
+                "x": -1160.5,
+                "y": -626.29,
+                "z": 891.07
+            },
+            "system": "!createSystem"
+        },
+        {
+            "id": 53,
+            "name": "CEBF-475",
+            "coordinates": {
+                "x": 1505.86,
+                "y": -761.07,
+                "z": -1439.58
+            },
+            "system": "!createSystem"
+        },
+        {
+            "id": 54,
+            "name": "DF-91",
+            "coordinates": {
+                "x": -460.05,
+                "y": -1828.97,
+                "z": -541.46
+            },
+            "system": "!createSystem"
+        },
+        {
+            "id": 55,
+            "name": "DDD-65",
+            "coordinates": {
+                "x": 1232.9,
+                "y": 714.42,
+                "z": -1373.85
+            },
+            "system": "!createSystem"
+        },
+        {
+            "id": 56,
+            "name": "DAB-3",
+            "coordinates": {
+                "x": -823.44,
+                "y": 1730.74,
+                "z": 1127.32
+            },
+            "system": "!createSystem"
+        },
+        {
+            "id": 57,
+            "name": "EB-417",
+            "coordinates": {
+                "x": 971.06,
+                "y": 529.6,
+                "z": 314.17
+            },
+            "system": "!createSystem"
+        },
+        {
+            "id": 58,
+            "name": "BDE-84",
+            "coordinates": {
+                "x": 1855.48,
+                "y": 807.03,
+                "z": -816.07
+            },
+            "system": "!createSystem"
+        },
+        {
+            "id": 59,
+            "name": "F-80",
+            "coordinates": {
+                "x": -1582.02,
+                "y": -617.83,
+                "z": 807.81
+            },
+            "system": "!createSystem"
+        },
+        {
+            "id": 60,
+            "name": "FBFB-2",
+            "coordinates": {
+                "x": 278.15,
+                "y": 1636.1,
+                "z": -526.21
+            },
+            "system": "!createSystem"
+        },
+        {
+            "id": 61,
+            "name": "CDD-76",
+            "coordinates": {
+                "x": -925.87,
+                "y": 685.66,
+                "z": 1001.03
+            },
+            "system": "!createSystem"
+        },
+        {
+            "id": 62,
+            "name": "AEE-738",
+            "coordinates": {
+                "x": 1456.41,
+                "y": -291.64,
+                "z": 13.53
+            },
+            "system": "!createSystem"
+        },
+        {
+            "id": 63,
+            "name": "B-3",
+            "coordinates": {
+                "x": -1646.36,
+                "y": -106.04,
+                "z": 120.09
+            },
+            "system": "!createSystem"
+        },
+        {
+            "id": 64,
+            "name": "DBD-0",
+            "coordinates": {
+                "x": -1516.51,
+                "y": -1358.4,
+                "z": 959.92
+            },
+            "system": "!createSystem"
+        },
+        {
+            "id": 65,
+            "name": "FF-1",
+            "coordinates": {
+                "x": -498.24,
+                "y": 323.98,
+                "z": -1418.06
+            },
+            "system": "!createSystem"
+        },
+        {
+            "id": 66,
+            "name": "BFC-4",
+            "coordinates": {
+                "x": -188.02,
+                "y": -293.43,
+                "z": 1682.44
+            },
+            "system": "!createSystem"
+        },
+        {
+            "id": 67,
+            "name": "CAA-3",
+            "coordinates": {
+                "x": -1634.9,
+                "y": -1614.95,
+                "z": 105.72
+            },
+            "system": "!createSystem"
+        },
+        {
+            "id": 68,
+            "name": "BF-9",
+            "coordinates": {
+                "x": -1470.39,
+                "y": -1853.43,
+                "z": -1176.36
+            },
+            "system": "!createSystem"
+        },
+        {
+            "id": 69,
+            "name": "DD-06",
+            "coordinates": {
+                "x": -657.24,
+                "y": 1979.13,
+                "z": -753.04
+            },
+            "system": "!createSystem"
+        },
+        {
+            "id": 70,
+            "name": "DCBED-1",
+            "coordinates": {
+                "x": 1592.69,
+                "y": 921.75,
+                "z": 1196.89
+            },
+            "system": "!createSystem"
+        },
+        {
+            "id": 71,
+            "name": "ACB-281",
+            "coordinates": {
+                "x": 1331.42,
+                "y": 228.38,
+                "z": 1081.28
+            },
+            "system": "!createSystem"
+        },
+        {
+            "id": 72,
+            "name": "CDEB-1",
+            "coordinates": {
+                "x": -223.45,
+                "y": -665.57,
+                "z": 1250.63
+            },
+            "system": "!createSystem"
+        },
+        {
+            "id": 73,
+            "name": "BD-42",
+            "coordinates": {
+                "x": 1505.36,
+                "y": -1353.51,
+                "z": 825.15
+            },
+            "system": "!createSystem"
+        },
+        {
+            "id": 74,
+            "name": "ACFB-3",
+            "coordinates": {
+                "x": -1510.87,
+                "y": -928.85,
+                "z": -67.5
+            },
+            "system": "!createSystem"
+        },
+        {
+            "id": 75,
+            "name": "FAEE-8",
+            "coordinates": {
+                "x": -106.48,
+                "y": -837.67,
+                "z": 495
+            },
+            "system": "!createSystem"
+        },
+        {
+            "id": 76,
+            "name": "C-0",
+            "coordinates": {
+                "x": -643.65,
+                "y": -168.14,
+                "z": 1716.74
+            },
+            "system": "!createSystem"
+        },
+        {
+            "id": 77,
+            "name": "EAC-385",
+            "coordinates": {
+                "x": -1941.24,
+                "y": -1334.95,
+                "z": 1983.95
+            },
+            "system": "!createSystem"
+        },
+        {
+            "id": 78,
+            "name": "FFEE-8",
+            "coordinates": {
+                "x": 1705.69,
+                "y": -29.95,
+                "z": 1904.44
+            },
+            "system": "!createSystem"
+        },
+        {
+            "id": 79,
+            "name": "DCEDB-6",
+            "coordinates": {
+                "x": -733.65,
+                "y": -845.42,
+                "z": 1736.37
+            },
+            "system": "!createSystem"
+        },
+        {
+            "id": 80,
+            "name": "EEEDD-91",
+            "coordinates": {
+                "x": -1142.48,
+                "y": -470.53,
+                "z": 1576.87
+            },
+            "system": "!createSystem"
+        },
+        {
+            "id": 81,
+            "name": "BBC-1",
+            "coordinates": {
+                "x": -1761.33,
+                "y": -911.38,
+                "z": 1753.96
+            },
+            "system": "!createSystem"
+        },
+        {
+            "id": 82,
+            "name": "DDD-4",
+            "coordinates": {
+                "x": 1557.6,
+                "y": -1465.33,
+                "z": 1002.3
+            },
+            "system": "!createSystem"
+        },
+        {
+            "id": 83,
+            "name": "E-19",
+            "coordinates": {
+                "x": -1908.25,
+                "y": 1206.32,
+                "z": 1178.65
+            },
+            "system": "!createSystem"
+        },
+        {
+            "id": 84,
+            "name": "BAD-8",
+            "coordinates": {
+                "x": 1362.85,
+                "y": -284.99,
+                "z": 1771.91
+            },
+            "system": "!createSystem"
+        },
+        {
+            "id": 85,
+            "name": "CB-15",
+            "coordinates": {
+                "x": -126.31,
+                "y": 1105.69,
+                "z": 989.87
+            },
+            "system": "!createSystem"
+        },
+        {
+            "id": 86,
+            "name": "EBC-566",
+            "coordinates": {
+                "x": 546.21,
+                "y": 468.17,
+                "z": 1923.76
+            },
+            "system": "!createSystem"
+        },
+        {
+            "id": 87,
+            "name": "C-65",
+            "coordinates": {
+                "x": 1497.22,
+                "y": -1834.33,
+                "z": 933.17
+            },
+            "system": "!createSystem"
+        },
+        {
+            "id": 88,
+            "name": "EA-72",
+            "coordinates": {
+                "x": -1514.15,
+                "y": 758.61,
+                "z": -953.49
+            },
+            "system": "!createSystem"
+        },
+        {
+            "id": 89,
+            "name": "B-25",
+            "coordinates": {
+                "x": 113.74,
+                "y": -1875.66,
+                "z": 807.46
+            },
+            "system": "!createSystem"
+        },
+        {
+            "id": 90,
+            "name": "CC-667",
+            "coordinates": {
+                "x": -1314.73,
+                "y": 1197.45,
+                "z": -154.27
+            },
+            "system": "!createSystem"
+        },
+        {
+            "id": 91,
+            "name": "BB-628",
+            "coordinates": {
+                "x": -1744.17,
+                "y": 1838.52,
+                "z": -1031.51
+            },
+            "system": "!createSystem"
+        },
+        {
+            "id": 92,
+            "name": "DE-08",
+            "coordinates": {
+                "x": -206.08,
+                "y": 486.74,
+                "z": 582.93
+            },
+            "system": "!createSystem"
+        },
+        {
+            "id": 93,
+            "name": "EFFF-88",
+            "coordinates": {
+                "x": -354.78,
+                "y": 1216.52,
+                "z": 1555.91
+            },
+            "system": "!createSystem"
+        },
+        {
+            "id": 94,
+            "name": "EBA-3",
+            "coordinates": {
+                "x": 1569.35,
+                "y": -1893.41,
+                "z": 1679.18
+            },
+            "system": "!createSystem"
+        },
+        {
+            "id": 95,
+            "name": "CDC-74",
+            "coordinates": {
+                "x": -414.55,
+                "y": 1735.11,
+                "z": -1041.37
+            },
+            "system": "!createSystem"
+        },
+        {
+            "id": 96,
+            "name": "FCA-82",
+            "coordinates": {
+                "x": 546.75,
+                "y": -4.6,
+                "z": -1797.71
+            },
+            "system": "!createSystem"
+        },
+        {
+            "id": 97,
+            "name": "BCBB-8",
+            "coordinates": {
+                "x": -270.29,
+                "y": 1473.58,
+                "z": -1645.76
+            },
+            "system": "!createSystem"
+        },
+        {
+            "id": 98,
+            "name": "EE-85",
+            "coordinates": {
+                "x": -1314.85,
+                "y": 465.74,
+                "z": 1555.75
+            },
+            "system": "!createSystem"
+        },
+        {
+            "id": 99,
+            "name": "DBBDD-647",
+            "coordinates": {
+                "x": -1971.32,
+                "y": -1042.94,
+                "z": 1274.15
+            },
+            "system": "!createSystem"
+        }
+    ]
+}
