@@ -29,7 +29,7 @@
                 "name": "Cargo Rack",
                 "type": "cargorack",
                 "capacity": 16,
-                "childs": [],
+                "children": [],
                 "damage": 0
             }
         },

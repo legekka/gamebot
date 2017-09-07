@@ -1,3 +1,4 @@
+
 // creating systems for stars
 var fs = require('fs');
 
@@ -25,33 +26,30 @@ var path = './data/starmap.json';
 var StarMap = JSON.parse(fs.readFileSync(path).toString());
 
 for (j = 0; j < StarMap.stars.length; j++) {
-    if (StarMap.stars[j].system == '!createSystem') {
-        var system = {
-            id: StarMap.stars[j].id + '-S',
-            name: StarMap.stars[j].name + ' System',
-            childs: [
-                // creating central star
-                {
-                    id: StarMap.stars[j].id + '-S-0',
-                    name: StarMap.stars[j].name + " Star",
-                    type: "star",
-                    size: parseFloat(((Math.random() * objectsize.star)).toFixed(2)),
-                    info: "!createInfo",
-                    childs: [],
-                }
-            ]
-        }
-        system.childs[0].childs = generateChilds(system.childs[0], 1);
-        StarMap.stars[j].system = system;
+    if (StarMap.stars[j].children == '!createSystem') {
+        var system = [
+            // creating central star
+            {
+                id: StarMap.stars[j].id + '-0',
+                name: StarMap.stars[j].name + " Star",
+                type: "star",
+                size: parseFloat(((Math.random() * objectsize.star)).toFixed(2)),
+                info: "!createInfo",
+                children: [],
+            }
+        ]
+        system[0].children = generatechildren(system[0], 1);
+        StarMap.stars[j].children = system;
     }
 }
 
 fs.writeFileSync(path, JSON.stringify(StarMap));
 
-function generateChilds(parent, level) {
-    var childs = [];
+function generatechildren(parent, level) {
+    var children = [];
     var childcount = Math.floor(Math.random() * max / level);
     var i = 0;
+
     while (i < childcount) {
         var rnd = Math.random();
         var type;
@@ -79,9 +77,9 @@ function generateChilds(parent, level) {
                     size: parseFloat(((Math.random() * objectsize.star)).toFixed(2)),
                     distance: parseFloat(((Math.random() * size)).toFixed(2)),
                     info: "!createInfo",
-                    childs: []
+                    children: []
                 }
-                child.childs = generateChilds(child, level + 1)
+                child.children = generatechildren(child, level + 1)
                 break;
             }
             case "planet": {
@@ -92,9 +90,9 @@ function generateChilds(parent, level) {
                     size: parseFloat(((Math.random() * objectsize.planet)).toFixed(2)),
                     distance: parseFloat(((Math.random() * size)).toFixed(2)),
                     info: "!createInfo",
-                    childs: []
+                    children: []
                 }
-                child.childs = generateChilds(child, level + 1)
+                child.children = generatechildren(child, level + 1)
                 break;
             }
             case "station": {
@@ -110,8 +108,9 @@ function generateChilds(parent, level) {
             }
         }
 
-        childs.push(child);
+        children.push(child);
         i++;
     }
-    return childs;
+    console.log(children);
+    return children;
 }

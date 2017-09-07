@@ -4,22 +4,23 @@
         {
             "id": "0",
             "name": "StarA",
+            "type": "system",
             "coordinates": {
                 "x": 0,
                 "y": 0,
                 "z": 0
             },
-            "system": {
+            "children": {
                 "id": "<parentID>-S",
                 "name": "System 1",
                 //"status": active
-                "childs": [
+                "children": [
                     {
                         "id": "<parentID>-0",
                         "name": "Central Star",
                         "type": "star",
                         "distance": 0,
-                        "childs": [
+                        "children": [
                             {
                                 "id": "<parentID>-0",
                                 "name": "Planet 1",
@@ -29,13 +30,13 @@
                                 //"speed": 5,
                                 //"lastCalculated": 1235,
                                 //"state": live,
-                                "childs": []
+                                "children": []
                             },
                             {
                                 "name": "Planet 2",
                                 "type": "planet",
                                 "distance": 35,
-                                "childs": [
+                                "children": [
                                     {
                                         "name": "Starport 1",
                                         "type": "station",
@@ -83,7 +84,7 @@
                                         "name": "Moon",
                                         "type": "moon",
                                         "distance": 7,
-                                        "childs": []
+                                        "children": []
                                     }
                                 ]
                             }
@@ -95,12 +96,13 @@
         {
             "id": 1,
             "name": "StarB",
+            "type": "system",
             "coordinates": {
                 "x": 2000,
                 "y": 4000,
                 "z": 0
             },
-            "system": "<another system>"
+            "children": "<another system>"
         }
     ]
 }

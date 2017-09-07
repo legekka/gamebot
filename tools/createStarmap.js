@@ -23,10 +23,11 @@ function parseDate(date) {
 
 function buildStar(id) {
     var Star = {
-        id: id,
+        id: id.toString(),
         name: nameCreator(),
+        type: "system",
         coordinates: createCoordinates(),
-        system: "!createSystem"
+        children: "!createSystem"
     }
     StarMap.stars.push(Star);
 }

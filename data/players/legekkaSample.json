@@ -1,7 +1,7 @@
 {
     "name": "legekka",
     "did": "143399021740818432",
-    "credits": 1000,
+    "balance": 1000,
     "location": {
         "absolute": {
             "x": 0.2,
@@ -45,7 +45,7 @@
     "ship": {
         "name": "Solaris",
         "description": "legekka's mothership.",
-        "energyconsumption": "<live function>",
+        "energyConsumption": "<live function>",
         "price": 47000000,
         "core": {
             "thrusters": {
@@ -73,7 +73,7 @@
                 "name": "Cargo Rack",
                 "type": "cargorack",
                 "capacity": 16,
-                "childs": [],
+                "children": [],
                 "damage": 0
             },
             "slot2": {

@@ -1,0 +1,10 @@
+{
+    "name": "",
+    "discordId": "",
+    "balance": 1000,
+    "location": "",
+    "status": {
+        "type": "IDLE"
+    },
+    "ship": ""
+}
